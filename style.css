@@ -25,6 +25,7 @@ body{
 .pClass{
     font-weight: 100;
     color:#1976d2;
+    margin-left: 78px;
 }
 .headerDivClass{
     direction: rtl;
@@ -43,10 +44,10 @@ body{
 }
 .newIcon{
     height:16px ;
-    width: 19px;
+    width: 21px;
     margin-left: 4px;
     background-image: url('images/new.svg');
-    background-size: 100%;
+    background-size: 90%;
     background-repeat: no-repeat;
 }
 .secondContainer{
