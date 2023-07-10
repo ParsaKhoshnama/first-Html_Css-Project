@@ -1,0 +1,112 @@
+@font-face {
+    font-family:'Shabnam';
+    src:local('Shabnam'),local('Shabnam FD'),local('Shabanam-FD'),url('fonts/Shabnam-FD.woff2') format('woff2');
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+   font-family:Shabnam;
+
+}
+.li1{
+    list-style-image: url('images/new.svg');
+}
+.mainContainer{
+    max-width:1240px;
+    height:600px;
+  /*  border: 3px solid gold;*/
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+}
+.pClass{
+    font-weight: 100;
+    color:#1976d2;
+}
+.headerDivClass{
+    direction: rtl;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2px;
+    padding-right: 2px;
+  /*  border: 1px solid blue;*/
+}
+.secondContainer{
+    direction: rtl;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+.box1{
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding-left: 4px;
+    padding-right: 4px;
+  /*  background-color: green;*/
+}
+
+.box2{
+    width:100% ;
+    height:220px;
+   /* background-color: red;*/
+}
+.box3{
+    margin-top: 45px;
+    width: 100%;
+    height: 80px;
+   /* background-color:blue;*/
+}
+.imgClass{
+    width:100%;
+    height:80%;
+    display: inline-block;
+}
+.pClass2{
+    color:#37474f;
+    font-size: 15px;
+}
+.spanClass1{
+    display: inline-block;
+    height:21px ;
+    width: 32px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    background-color:#b3e5fc ;
+    color:#1976d2;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.spanClass2{
+    display: inline-block;
+    text-decoration: line-through;
+    color:#9e9e9e;
+}
+.box4{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 18px;
+}
+
+.li2{
+    font-weight: lighter;
+    font-size: 14px;
+    direction: ltr;
+    list-style-image: url('images/star.svg');
+    padding-left: 10px;
+}
+.pClass3{
+   font-weight: bold;
+}
