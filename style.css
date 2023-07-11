@@ -19,10 +19,11 @@ body{
     margin-right: auto;
     margin-left: auto;
 }
-.pClass{
+.aClass{
     font-weight: 100;
     color:#1976d2;
     margin-left: 78px;
+    text-decoration: none;
 }
 .headerDivClass{
     direction: rtl;
@@ -43,8 +44,8 @@ body{
 }
 .newIcon{
     height:16px ;
-    width: 21px;
-    margin-left: 4px;
+    width: 22px;
+    margin-left: 1px;
     background-image: url('images/new.svg');
     background-size: 90%;
     background-repeat: no-repeat;
