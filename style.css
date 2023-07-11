@@ -31,7 +31,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 2px;
+    padding-left: 6px;
     padding-right: 2px;
 }
 .subBox{
@@ -51,7 +51,7 @@ body{
     direction: rtl;
     display: flex;
     flex-direction: row;
-    gap: 6px;
+    gap: 5px;
 }
 .box1{
     width: 250px;
