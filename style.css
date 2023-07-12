@@ -3,7 +3,7 @@
     src:local('Shabnam'),local('Shabnam FD'),local('Shabanam-FD'),url('fonts/Shabnam-FD.woff2') format('woff2');
 }
 
-*{
+*,*::after,*::before{
     box-sizing: border-box;
     margin: 0px;
 }
